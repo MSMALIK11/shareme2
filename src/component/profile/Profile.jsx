@@ -7,13 +7,12 @@ import ProfileCard from '../profileCard/ProfileCard';
 
 const Profile = () => {
   return (
-    <div className='ProfileSide'>
+    <div className="ProfileSide">
       <LogoSearch />
-      <ProfileCard />
-    <FollowersCards />
-    
+      <ProfileCard height={130} myprofile />
+      <FollowersCards />
     </div>
-  )
+  );
 }
 
 export default Profile

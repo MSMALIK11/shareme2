@@ -16,10 +16,11 @@
 }
 
 .App{
-  /* background-color: #f3f3f3; */
+  background-color: #f3f3f3;
   color: var(--black);
   overflow: hidden;
   padding: 1rem 1rem;
+
 }
 
 .blur{
@@ -34,5 +35,9 @@
   background-color: #a6ddf0;
   filter: blur(72px);
   -webkit-filter: blur(72px);
-  z-index: -1;
+  
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
