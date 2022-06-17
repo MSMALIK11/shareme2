@@ -8,6 +8,7 @@ import YourInfo from "../yourinfo/YourInfo";
 import FolowersCards from '../Followerscard/FollowersCards'
 import Trends from '../trendcard/Trends';
 import Post from '../postcard/Posts'
+import Activefrnds from "../activefriends/Activefrnds";
 const MyProfile = () => {
   return (
     <div className="Home">
@@ -27,6 +28,7 @@ const MyProfile = () => {
         </div>
       </div>
       <div className="right-side-profile-info">
+        <Activefrnds />
         <Trends />
       </div>
     </div>

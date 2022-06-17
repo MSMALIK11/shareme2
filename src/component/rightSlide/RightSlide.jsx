@@ -5,6 +5,7 @@ import commentIcon from '../../images/comment.png';
 import notiIcon from '../../images/noti.png';
 import { AiFillSetting } from "react-icons/ai";
 import ListOftrends from '../trendcard/ListOftrends';
+import Activefrnds from '../activefriends/Activefrnds';
 
 const RightSlide = () => {
   return (
@@ -15,6 +16,7 @@ const RightSlide = () => {
         <img src={notiIcon} alt="" />
         <img src={commentIcon} alt="" />
       </div>
+      <Activefrnds />
       <ListOftrends />
     </div>
   );

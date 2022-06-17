@@ -7,7 +7,8 @@
   --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
   --hrColor: #cfcdcd;
   --cardColor: rgba(255, 255, 255, 0.64);
-  --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+  /* --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%); */
+  --buttonBg:linear-gradient(45deg,#ed6ea0,#ec8c69);
   --inputColor: rgba(40, 52, 62, 0.07);
   --photo: #4CB256;
   --video: #4A4EB7;
@@ -34,10 +35,46 @@
   -o-border-radius: 50%;
   background-color: #a6ddf0;
   filter: blur(72px);
-  -webkit-filter: blur(72px);
+  -webkit-filter: blusr(72px);
   
 }
 
 ::-webkit-scrollbar{
   display: none;
+}
+
+
+
+/* custom button */
+
+.my-button{
+    background:var(--buttonBg) ;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    color: #fff;
+    border-radius:10px ;
+
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.my-button:hover{
+    background:transparent;
+    border: 2px solid var(--orange);
+    color: var(--black);
+}
+
+/* .share icons */
+.share-icons{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+.share-option>div{
+    color: var(--photo);
 }

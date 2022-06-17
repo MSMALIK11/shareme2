@@ -1,0 +1,124 @@
+.auth-wraper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.auth-wraper .left-logo-area {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.auth-wraper .left-logo-area > img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+}
+.auth-wraper .info {
+  display: flex;
+
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.auth-wraper .info h1 {
+    background-color: red;
+  background-image: var(--buttonBg);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.right-form {
+  background-color: var(--cardColor);
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"] {
+
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 16px;
+}
+
+::placeholder {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+ .input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+ width: 100%;
+}
+
+.user-name-input {
+  width: 100%;
+
+  display: flex;
+}
+.auth-wraper .right-form .user-name-input input {
+  width: 100%;
+}
+
+.auth-wraper .right-form button {
+  align-self: end;
+  margin-top: 1rem;
+  background-image: var(--buttonBg);
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 400ms ease-out;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.auth-wraper .right-form button:hover{
+ background-image:none;
+  border: 2px solid var(--orange);
+  cursor: pointer;
+  color: var(--black);
+  box-shadow: 0 0 10px 0px  var(--orange);
+}
+.auth-wraper .right-form>span{
+    margin: 1rem 0;
+}
+.auth-wraper .right-form h4{
+    margin: 1rem 0;
+    text-transform: capitalize;
+}

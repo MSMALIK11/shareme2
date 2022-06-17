@@ -3,7 +3,7 @@ import './profileCard.css';
 import prifileBanner from '../../images/2775071.jpg';
 import profileImg from '../../images/profileImg.jpg';
 import { Link } from "react-router-dom";
-const ProfileCard=({height,bottom,pWidth,myprofile})=>{
+const ProfileCard=({height,bottom,pWidth,myprofile,isHome})=>{
   
     return (
       <>
@@ -35,11 +35,15 @@ const ProfileCard=({height,bottom,pWidth,myprofile})=>{
                 <span>1</span>
                 <span>Following</span>
               </div>
-              <div className="line-vr"></div>
-              <div className="follow">
-                <span>12</span>
-                <span>Post</span>
-              </div>
+              {isHome && (
+                <>
+                  <div className="line-vr"></div>
+                  <div className="follow">
+                    <span>12</span>
+                    <span>Post</span>
+                  </div>
+                </>
+              )}
             </div>
             <hr />
             {myprofile && (

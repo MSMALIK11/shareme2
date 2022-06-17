@@ -18,7 +18,7 @@ if(e.target.files && e.target.files[0]){
 }
   }
 
-  console.log(image)
+ 
   return (
     <div className="post-share">
       <div>
