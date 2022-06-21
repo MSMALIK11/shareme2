@@ -6,10 +6,22 @@ import './home.css'
 
 const Home=()=>{
     return(
-        <div className="Home">
-        <div className="profileSide"><Profile /></div>
+        <div className="Hom">
+        {/* <div className="profileSide"><Profile /></div>
         <div className="postSide"><PostSlide /></div>
-        <div className="rightSide"><RightSlide /></div>
+        <div className="rightSide"><RightSlide /></div> */}
+
+        <div className="row">
+            <div className="col-sm-12 col-md-4 col-lg-3">
+<Profile />
+            </div>
+            <div className="col-sm-12 col-md-8 col-lg-6">
+<PostSlide />
+            </div>
+            <div className="col-sm-12 col-md-4 col-lg-3">
+<RightSlide />
+            </div>
+        </div>
         
         </div>
     )
