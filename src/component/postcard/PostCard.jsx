@@ -1,12 +1,12 @@
 import React,{useState} from 'react';
 import './postcard.css';
-import img from '../../images/postpic1.jpg';
+
 import like from '../../images/like.png';
-// import noti from '../../images/noti.png';
+
 import notlike from '../../images/notlike.png';
 import comment from '../../images/comment.png';
 import share from '../../images/share.png';
-const PostCard = ({post,id}) => {
+const PostCard = ({post}) => {
   const[active,setActive]=useState(true)
 
   return (

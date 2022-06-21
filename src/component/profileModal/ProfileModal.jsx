@@ -1,18 +1,19 @@
-import React,{useRef,useState} from 'react';
+import React,{useRef} from 'react';
 import { GrGallery } from "react-icons/gr";
 import {  Modal, useMantineTheme } from "@mantine/core";
 import '../auth/login.css';
 import InputBox from '../common/InputBox';
 import '../postShare/postsahre.css';
 const ProfileModal = ({opened,setOpened}) => {
-  const [image,setImage]=useState('')
+  // const [image,setImage]=useState('')
       const theme = useMantineTheme();
         const imageRef = useRef();
         const imagecoverRef = useRef();
           const onImageChange = (e) => {
             if (e.target.files && e.target.files[0]) {
-              let img = e.target.files[0];
-              setImage({ image: URL.createObjectURL(img) });
+              // let img = e.target.files[0];
+              // setImage({ image: URL.createObjectURL(img) });
+              // setImage(img)
             }
           };
           const onCoverImageChange =()=>{
@@ -66,6 +67,7 @@ const ProfileModal = ({opened,setOpened}) => {
           </div>
         </div>
       </form>
+  
 
       <div style={{ display: "none" }}>
         <input

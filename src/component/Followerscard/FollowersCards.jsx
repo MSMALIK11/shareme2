@@ -15,7 +15,7 @@ const FollowersCards = () => {
             <span>@sub name</span>
           </div>
         </div>
-        <a>follow</a>
+        <span>follow</span>
       </div>
       {/* < /folower> */}
       {/* < folower> */}
@@ -27,7 +27,7 @@ const FollowersCards = () => {
             <span>@sub name</span>
           </div>
         </div>
-        <a>follow</a>
+        <span>follow</span>
       </div>
       {/* < /folower> */}
 

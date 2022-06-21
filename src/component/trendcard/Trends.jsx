@@ -9,9 +9,9 @@ const Trends = () => {
       <h4>Trends for you</h4>
       <div className="trends-details">
         {TrendData &&
-          TrendData.map((post, id) => {
+          TrendData.map((post, index) => {
             return (
-              <div className="trends">
+              <div className="trends" key={index}>
                 <span>
                   <b>#{post.name}</b>
                 </span>

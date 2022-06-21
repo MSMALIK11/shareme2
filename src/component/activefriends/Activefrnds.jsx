@@ -5,10 +5,10 @@ const Activefrnds = () => {
   return (
     <div className="active-friends-wraper">
       <h4>Active Friends</h4>
-      {Followers && Followers.map((frnds,i)=>{
+      {Followers && Followers.map((frnds)=>{
           return (
-            <>
-              <div className="active-friends" key={i}>
+          
+              <div className="active-friends" key={frnds.username}>
                 <div className="active-friends-img">
                   <img src={frnds.img} alt="" />
                 </div>
@@ -16,7 +16,7 @@ const Activefrnds = () => {
                   <h5>{frnds.username}</h5>
                 </div>
               </div>
-            </>
+           
           );
       })}
      
