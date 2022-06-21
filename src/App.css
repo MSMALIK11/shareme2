@@ -36,6 +36,7 @@
   background-color: #a6ddf0;
   filter: blur(72px);
   -webkit-filter: blusr(72px);
+  z-index: -1;
   
 }
 

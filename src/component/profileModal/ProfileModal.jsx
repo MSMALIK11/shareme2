@@ -31,7 +31,7 @@ const ProfileModal = ({opened,setOpened}) => {
       }
       overlayOpacity={0.55}
       overlayBlur={3}
-      size="55%"
+      size="lg"
     >
       {/* Modal content */}
 

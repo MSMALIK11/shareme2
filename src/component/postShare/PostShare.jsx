@@ -44,12 +44,7 @@ if(e.target.files && e.target.files[0]){
           </span>
           <span>Location</span>
         </div>
-        <div className="share-icons">
-          <span className="shedule">
-            <GoCalendar />
-          </span>
-          <span>Schedule</span>
-        </div>
+       
 
         <button className="share-post-button">share</button>
       </div>
