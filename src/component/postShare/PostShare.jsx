@@ -5,7 +5,6 @@ import { GrGallery } from "react-icons/gr";
 import { FaPhotoVideo } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 
-import { GoCalendar } from "react-icons/go";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 const PostShare = () => {
   const[image,setImage]=useState(null);
