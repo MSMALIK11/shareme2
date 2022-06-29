@@ -9,7 +9,7 @@ const Profile = () => {
   return (
     <div className="ProfileSide">
       <LogoSearch />
-      <ProfileCard height={130} myprofile />
+      <ProfileCard height={130} myprofile  />
       <FollowersCards />
     </div>
   );

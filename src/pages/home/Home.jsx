@@ -2,14 +2,17 @@ import React from "react";
 import PostSlide from "../../component/postSlide/PostSlide";
 import Profile from "../../component/profile/Profile";
 import RightSlide from "../../component/rightSlide/RightSlide";
-import './home.css'
+import './home.css';
+
 
 const Home=()=>{
+
     return(
         <div className="Hom">
-        {/* <div className="profileSide"><Profile /></div>
-        <div className="postSide"><PostSlide /></div>
-        <div className="rightSide"><RightSlide /></div> */}
+           
+
+            
+       
 
         <div className="row">
             <div className="col-sm-12 col-md-4 col-lg-3">
@@ -22,6 +25,7 @@ const Home=()=>{
 <RightSlide />
             </div>
         </div>
+
         
         </div>
     )

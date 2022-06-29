@@ -79,3 +79,8 @@
 .share-option>div{
     color: var(--photo);
 }
+
+button:disabled{
+  background-color: silver;
+  pointer-events: none;
+}

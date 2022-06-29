@@ -66,6 +66,7 @@ form {
 ::placeholder {
   font-weight: bold;
   text-transform: capitalize;
+  font-size: 13px;
 }
  .input-container {
   display: flex;
@@ -121,4 +122,10 @@ form {
 .auth-wraper .right-form h4{
     margin: 1rem 0;
     text-transform: capitalize;
+}
+
+
+
+.link{
+  cursor: pointer;
 }

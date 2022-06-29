@@ -2,6 +2,7 @@
   "name": "shareme",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000",
   "dependencies": {
     "@mantine/core": "^4.2.9",
     "@mantine/hooks": "^4.2.9",
@@ -9,6 +10,7 @@
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.5",
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "bootstrap": "^5.2.0-beta1",
     "bootstrap-icons": "^1.8.3",
@@ -19,11 +21,16 @@
     "mongoose": "^6.4.0",
     "react": "^18.1.0",
     "react-bootstrap": "^0.32.4",
+    "react-cookie": "^4.1.1",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.2",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -6,13 +6,17 @@ import notiIcon from '../../images/noti.png';
 import { AiFillSetting } from "react-icons/ai";
 import ListOftrends from '../trendcard/ListOftrends';
 import Activefrnds from '../activefriends/Activefrnds';
+import { Link } from 'react-router-dom';
 
 const RightSlide = () => {
   return (
     <div className="right-side">
       <div className="nav-icons">
         <img src={homeIcon} alt="" />
-        <AiFillSetting style={{fontSize:30}} />
+        <Link to="/login" style={{color:'inherit',textDecoration:'none'}}>
+          <AiFillSetting style={{ fontSize: 30 }} />
+        </Link>
+
         <img src={notiIcon} alt="" />
         <img src={commentIcon} alt="" />
       </div>

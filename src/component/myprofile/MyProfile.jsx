@@ -27,7 +27,7 @@ const MyProfile = () => {
         <div className="col-sm-12 col-md-6 col-lg-6  order-md-1 order-lg-1 order-0">
           <PostShare />
           <div style={{ marginTop: 20 }}>
-            <ProfileCard height={220} pWidth={130} bottom={-60} />
+            <ProfileCard height={220} pWidth={130} bottom={-60} isHome />
             <Post />
           </div>
         </div>

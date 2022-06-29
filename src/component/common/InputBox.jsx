@@ -1,10 +1,18 @@
 import React from 'react'
-import '../auth/login.css';
-const InputBox = ({name,placeText}) => {
+import './inputBox.css'
+const InputBox = ({ name,type,value, placeText, handleChange }) => {
   return (
-   
-      <input type="text" name={name} placeholder={placeText} className="custom-input"  />
+    <input
+      type={type}
+      name={name}
+      placeholder={placeText}
+      className="custom-input"
+      onChange={handleChange}
+      autoComplete="true"
+      value={value}
+    />
+  
   );
-}
+};
 
 export default InputBox
