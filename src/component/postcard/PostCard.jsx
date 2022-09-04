@@ -9,24 +9,24 @@ import comment from '../../images/comment.png';
 import share from '../../images/share.png';
 
 import LoadingCard from '../common/LoadingCard';
-const PostCard = ({post,img,user,loading}) => {
+const PostCard = ({post}) => {
   const[active,setActive]=useState(true);
 
   return (
     
     <div>
-    {loading ? <div className="post-card-wraper">
+    {/* {!post ? <div className="post-card-wraper">
      <LoadingCard />
     </div>
       
       
-    :
+    : */}
 
     
   
       <div className="post-card-wraper">
         <div className="post-image">
-          {loading ? <Skeleton height={390} /> : <img src={img} alt="" />}
+          {!post ? <Skeleton height={390} /> : <img src={post.img} alt="" />}
         </div>
         <div className="likes">
         
@@ -43,11 +43,11 @@ const PostCard = ({post,img,user,loading}) => {
         <span className="likescount"> likes</span>
 
         <div className="post-info">
-          <span className="text-capitalize">{user?.name}</span>
+          <span className="text-capitalize">{"jenni"}</span>
           <span>{post?.desc}</span>
         </div>
       </div>
-}
+
     </div>
   );
 }
