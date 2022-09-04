@@ -8,7 +8,7 @@ import notlike from '../../images/notlike.png';
 import comment from '../../images/comment.png';
 import share from '../../images/share.png';
 
-import LoadingCard from '../common/LoadingCard';
+// import LoadingCard from '../common/LoadingCard';
 const PostCard = ({post}) => {
   const[active,setActive]=useState(true);
 
